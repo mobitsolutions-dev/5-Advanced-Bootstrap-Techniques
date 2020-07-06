@@ -9,12 +9,12 @@ Set the Nav Bar to Open By Hovering
 
 First, add the following CSS rule to your stylesheet after loading Bootstrap’s CSS.  
 
-<div class="cm-comment"> @media only screen and (min-width: 768px) {
+ @media only screen and (min-width: 768px) {
    .dropdown:hover .dropdown-menu {
     display: block;
   }
 }
-</div>
+
 Next, we need to add a quick line of JS code to change the dropdown links “On Click” behavior.  
 
 $('.dropdown-toggle').click(function(e) {
@@ -99,7 +99,7 @@ How to set colums to the same height
 
               Here’s an example of the code you would use. 
 
-/* display this row with flex and use wrap (= respect columns' widths) */
+<span class="cm-comment">/* display this row with flex and use wrap (= respect columns' widths) */</span>
   .row-flex {
   display: -webkit-box;
   display: -ms-flexbox;
