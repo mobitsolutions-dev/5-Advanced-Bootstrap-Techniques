@@ -93,7 +93,7 @@ Here’s the code that you would use to create a flat yellow button.
 How to set colums to the same height
 
 <img  src="images/5.PNG"  heigth="200" width="100%">
-<img  src="images/6.PNG"  heigth="200" width="100%">
+
 Here’s an example of the code you would use. 
               
 
