@@ -5,7 +5,8 @@
 Set the Nav Bar to Open By Hovering
  
  Only two things will need to be changed in order to achieve this goal.
- First, add the following CSS rule to your stylesheet after loading Bootstrap’s CSS. 
+
+First, add the following CSS rule to your stylesheet after loading Bootstrap’s CSS. 
 
        
 
