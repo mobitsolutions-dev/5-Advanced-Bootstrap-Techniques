@@ -4,7 +4,7 @@
 <h2>Technique # 1</h2>
 Set the Nav Bar to Open By Hovering
  
- ![1](https://user-images.githubusercontent.com/67701415/86608769-69569a80-bfc4-11ea-870c-8498fa2838bd.PNG)
+<img  src="images/1.PNG"  heigth="200" width="200">
 
  
  Only two things will need to be changed in order to achieve this goal.
@@ -35,7 +35,7 @@ $('.dropdown-toggle').click(function(e) {
   }
 });
 ```
-<img  src="images/1.PNG"  heigth="100" width="100">
+
 <h2>Technique # 2</h2>
 
 Set responsive video embeds to maintain aspect ratio
@@ -56,9 +56,8 @@ Set responsive video embeds to maintain aspect ratio
 
 Hide Elements On Mobile
 
-![2](https://user-images.githubusercontent.com/67701415/86611022-8a6cba80-bfc7-11ea-8d82-5137e0719e91.PNG)
-![3](https://user-images.githubusercontent.com/67701415/86611026-8a6cba80-bfc7-11ea-8dac-61b2ce9f8cc9.PNG)
-
+<img  src="images/2.PNG"  heigth="200" width="200">
+<img  src="images/3.PNG"  heigth="200" width="200">
 If you need to quickly hide an element only on an xs device, you can use the ```.hidden-xs class.```
 
 In a similar fashion, you can use the``` .hidden-(breakpoint) class ```for the rest of the breakpoints and use ```.hidden-lg,.hidden-md, and .hidden-sm.```
@@ -68,7 +67,7 @@ In a similar fashion, you can use the``` .hidden-(breakpoint) class ```for the r
 
 Extend Existing classes...don't override      
 
-![4](https://user-images.githubusercontent.com/67701415/86611027-8b055100-bfc7-11ea-9fb4-770294eefc9f.PNG)
+<img  src="images/4.PNG"  heigth="200" width="200">
 <img src="desktop/1.png">
 Here’s the code that you would use to create a flat yellow button. 
 
@@ -93,9 +92,8 @@ Here’s the code that you would use to create a flat yellow button.
 
 How to set colums to the same height
 
-![5](https://user-images.githubusercontent.com/67701415/86611014-880a6080-bfc7-11ea-990c-ed03eab7bb0c.PNG)
-![6](https://user-images.githubusercontent.com/67701415/86611018-89d42400-bfc7-11ea-8fe5-b6ce8975577c.PNG)
-
+<img  src="images/5.PNG"  heigth="200" width="200">
+<img  src="images/6.PNG"  heigth="200" width="200">
 Here’s an example of the code you would use. 
               
 
