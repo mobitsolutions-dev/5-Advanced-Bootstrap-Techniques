@@ -68,7 +68,7 @@ In a similar fashion, you can use the``` .hidden-(breakpoint) class ```for the r
 Extend Existing classes...don't override      
 
 <img  src="images/4.PNG"  heigth="200" width="200">
-<img src="desktop/1.png">
+
 Here’s the code that you would use to create a flat yellow button. 
 
 ```
