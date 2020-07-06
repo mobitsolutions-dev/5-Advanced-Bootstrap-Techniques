@@ -68,9 +68,9 @@ In a similar fashion, you can use the``` .hidden-(breakpoint) class ```for the r
 
 Extend Existing classes...don't override      
 
-Here’s the code that you would use to create a flat yellow button. 
-
 ![4](https://user-images.githubusercontent.com/67701415/86611027-8b055100-bfc7-11ea-9fb4-770294eefc9f.PNG)
+<img src="desktop/1.png">
+Here’s the code that you would use to create a flat yellow button. 
 
 ```
 .btn-yellow {
