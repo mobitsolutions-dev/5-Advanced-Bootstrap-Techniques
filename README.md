@@ -3,9 +3,11 @@
 
 <h2>Technique # 1</h2>
 Set the Nav Bar to Open By Hovering
+ 
+ Only two things will need to be changed in order to achieve this goal.
+ First, add the following CSS rule to your stylesheet after loading Bootstrap’s CSS. 
 
        
-       First, add the following CSS rule to your stylesheet after loading Bootstrap’s CSS.  
 
 ```@media only screen and (min-width: 768px) {
   .dropdown:hover .dropdown-menu {
@@ -57,9 +59,10 @@ In a similar fashion, you can use the``` .hidden-(breakpoint) class ```for the r
 
 <h2>Technique # 4</h2>
 
-Extend Existing classes...don't override
+Extend Existing classes...don't override      
 
-      Here’s the code that you would use to create a flat yellow button. 
+Here’s the code that you would use to create a flat yellow button. 
+
 ```
 .btn-yellow {
   background: rgb(250, 255, 140);
@@ -81,7 +84,8 @@ Extend Existing classes...don't override
 
 How to set colums to the same height
 
-              Here’s an example of the code you would use. 
+Here’s an example of the code you would use. 
+              
 
 /* display this row with flex and use wrap (= respect columns' widths) */
   ```
