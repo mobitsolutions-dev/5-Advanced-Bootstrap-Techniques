@@ -1,4 +1,4 @@
-# 5-Advanced-Bootstrap-Techniques
+
 # 5-Advanced-Bootstrap-Techniques
 
 <h2>Technique # 1</h2>
@@ -9,8 +9,8 @@ Set the Nav Bar to Open By Hovering
 
 First, add the following CSS rule to your stylesheet after loading Bootstrap’s CSS.  
 
-@media only screen and (min-width: 768px) {
-  .dropdown:hover .dropdown-menu {
+ @media only screen and (min-width: 768px) {
+   .dropdown:hover .dropdown-menu {
     display: block;
   }
 }
@@ -52,7 +52,7 @@ Easy, right?
 
 Next, we need to add a quick line of JS code to change the dropdown links “On Click” behavior.  
 
-$('.dropdown-toggle').click(function(e) {
+ $('.dropdown-toggle').click(function(e) {
   if ($(document).width() > 768) {
     e.preventDefault();
 
@@ -78,7 +78,7 @@ In a similar fashion, you can use the .hidden-(breakpoint) class for the rest of
 
 Extend Existing classes...don't override
 
-      here’s the code that you would use to create a flat yellow button. 
+      Here’s the code that you would use to create a flat yellow button. 
 
 .btn-yellow {
   background: rgb(250, 255, 140);
