@@ -1,19 +1,18 @@
 
 # 5-Advanced-Bootstrap-Techniques
 
-<div class="cm-comment"><h2>Technique # 1</h2></div>
-
+<h2>Technique # 1</h2>
 Set the Nav Bar to Open By Hovering
 
        
        First, add the following CSS rule to your stylesheet after loading Bootstrap’s CSS.  
 
-@media only screen and (min-width: 768px) {
+```@media only screen and (min-width: 768px) {
   .dropdown:hover .dropdown-menu {
     display: block;
   }
 }
-
+```
 Next, we need to add a quick line of JS code to change the dropdown links “On Click” behavior.  
 
 ```
@@ -28,6 +27,7 @@ $('.dropdown-toggle').click(function(e) {
     }
 
   }
+});
 ```
 
 <h2>Technique # 2</h2>
@@ -35,7 +35,7 @@ $('.dropdown-toggle').click(function(e) {
 Set responsive video embeds to maintain aspect ratio
   
   Simply add the following code to your markup. 
-
+```
 <!-- 16:9 aspect ratio -->
 <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"> </iframe>
@@ -45,14 +45,14 @@ Set responsive video embeds to maintain aspect ratio
 <div class="embed-responsive embed-responsive-4by3">
     <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"> </iframe>
 </div>
-  
+  ```
 <h2>Technique # 3</h2>
 
 Hide Elements On Mobile
 
-If you need to quickly hide an element only on an xs device, you can use the .hidden-xs class.
+If you need to quickly hide an element only on an xs device, you can use the ```.hidden-xs class.```
 
-In a similar fashion, you can use the .hidden-(breakpoint) class for the rest of the breakpoints and use .hidden-lg, .hidden-md, and .hidden-sm.
+In a similar fashion, you can use the``` .hidden-(breakpoint) class ```for the rest of the breakpoints and use ```.hidden-lg,.hidden-md, and .hidden-sm.```
 
 
 <h2>Technique # 4</h2>
@@ -60,8 +60,8 @@ In a similar fashion, you can use the .hidden-(breakpoint) class for the rest of
 Extend Existing classes...don't override
 
       Here’s the code that you would use to create a flat yellow button. 
-
-<span class="cm-comment">.btn-yellow {
+```
+.btn-yellow {
   background: rgb(250, 255, 140);
   color: #574500;
   border: none;
@@ -76,14 +76,15 @@ Extend Existing classes...don't override
 .btn-yellow:active {
   background: rgb(247, 255, 71);
 }
-          </span>
+ ```       
 <h2>Technique # 5</h2>
 
 How to set colums to the same height
 
               Here’s an example of the code you would use. 
 
-<span class="cm-comment">/* display this row with flex and use wrap (= respect columns' widths) */</span>
+/* display this row with flex and use wrap (= respect columns' widths) */
+  ```
   .row-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -91,10 +92,11 @@ How to set colums to the same height
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-
+```
 
 /* vertical spacing between columns */
 
+```
 [class*="col-"] {
   margin-bottom: 30px;
 }
@@ -104,3 +106,4 @@ How to set colums to the same height
   padding: 20px 20px 10px;
   color: #fff;
 }
+```
