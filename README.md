@@ -9,15 +9,12 @@ Set the Nav Bar to Open By Hovering
 
 First, add the following CSS rule to your stylesheet after loading Bootstrap’s CSS.  
 
- @media only screen and (min-width: 768px) {
+<div class="cm-comment"> @media only screen and (min-width: 768px) {
    .dropdown:hover .dropdown-menu {
     display: block;
   }
 }
-Quite simply, if someone is viewing your website on a device that is wider than 768px, and they hover above a dropdown link, then the dropdown menu opens. 
-
-Easy, right? 
-
+</div>
 Next, we need to add a quick line of JS code to change the dropdown links “On Click” behavior.  
 
 $('.dropdown-toggle').click(function(e) {
