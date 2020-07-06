@@ -127,12 +127,12 @@ Here’s an example of the code you would use.
 
 <b>For more useful articles or blogs visit our website: https:</b>
 ```
-//www.mobitsolutions.com/blog
+(//www.mobitsolutions.com/blog)
 ```
 <h1>About Us:</h1
  
 web design agency uk | wordpress development london |
 wordpress development company in uk
 ```
-https://www.mobitsolutions.com/website-design-development/
+(https://www.mobitsolutions.com/website-design-development/)
 ```
