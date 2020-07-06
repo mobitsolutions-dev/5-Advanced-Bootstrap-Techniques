@@ -67,7 +67,7 @@ In a similar fashion, you can use the``` .hidden-(breakpoint) class ```for the r
 
 Extend Existing classes...don't override      
 
-<img  src="images/4.PNG"  heigth="200" width="200">
+<img  src="images/4.PNG"   width="100%">
 
 Here’s the code that you would use to create a flat yellow button. 
 
@@ -92,8 +92,8 @@ Here’s the code that you would use to create a flat yellow button.
 
 How to set colums to the same height
 
-<img  src="images/5.PNG"  heigth="200" width="200">
-<img  src="images/6.PNG"  heigth="200" width="200">
+<img  src="images/5.PNG"  heigth="200" width="100%">
+<img  src="images/6.PNG"  heigth="200" width="100%">
 Here’s an example of the code you would use. 
               
 
@@ -123,21 +123,17 @@ Here’s an example of the code you would use.
 ```
 
 
-
-
-
-
-
-
-
-
 <b>For more useful articles or blogs visit our website: https:</b>
 
 //www.mobitsolutions.com/blog
 
-<h1>About Us:</h1
+<h1>About Us:</h1>
  
 web design agency uk | wordpress development london |
 wordpress development company in uk
 
 https://www.mobitsolutions.com/website-design-development/
+
+
+<h1>Video Tutorial:</h1>
+https://www.youtube.com/watch?v=iJX0qP6ilTM
