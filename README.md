@@ -1,11 +1,12 @@
 
 # 5-Advanced-Bootstrap-Techniques
 
-<h2>Technique # 1</h2>
+<div class="cm-comment"><h2>Technique # 1</h2></div>
 
 Set the Nav Bar to Open By Hovering
 
-        First, add the following CSS rule to your stylesheet after loading Bootstrap’s CSS.  
+       
+       First, add the following CSS rule to your stylesheet after loading Bootstrap’s CSS.  
 
 @media only screen and (min-width: 768px) {
   .dropdown:hover .dropdown-menu {
