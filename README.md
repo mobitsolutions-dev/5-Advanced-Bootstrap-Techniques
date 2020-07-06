@@ -5,30 +5,17 @@
 
 Set the Nav Bar to Open By Hovering
 
-          Only two things will need to be changed in order to achieve this goal.
+         Simply add the following code to your markup. 
 
-First, add the following CSS rule to your stylesheet after loading Bootstrap’s CSS.  
+<!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
+</div>
 
- @media only screen and (min-width: 768px) {
-   .dropdown:hover .dropdown-menu {
-    display: block;
-  }
-}
-
-Next, we need to add a quick line of JS code to change the dropdown links “On Click” behavior.  
-
-$('.dropdown-toggle').click(function(e) {
-  if ($(document).width() > 768) {
-    e.preventDefault();
-
-    var url = $(this).attr('href');
-
-    if (url !== '#') {
-      window.location.href = url;
-    }
-
-  }
-});
+<!-- 4:3 aspect ratio -->
+<div class="embed-responsive embed-responsive-4by3">
+    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
+</div>
 
 <h2>Technique # 2</h2>
 
