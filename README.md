@@ -5,38 +5,17 @@
 
 Set the Nav Bar to Open By Hovering
 
-         Simply add the following code to your markup. 
-
-<!-- 16:9 aspect ratio -->
-<div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
-</div>
-
-<!-- 4:3 aspect ratio -->
-<div class="embed-responsive embed-responsive-4by3">
-    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
-</div>
-
-<h2>Technique # 2</h2>
-
-Set responsive video embeds to maintain aspect ratio
-  
-   Only two things will need to be changed in order to achieve this goal.
-
-First, add the following CSS rule to your stylesheet after loading Bootstrap’s CSS.  
+        First, add the following CSS rule to your stylesheet after loading Bootstrap’s CSS.  
 
 @media only screen and (min-width: 768px) {
   .dropdown:hover .dropdown-menu {
     display: block;
   }
 }
-Quite simply, if someone is viewing your website on a device that is wider than 768px, and they hover above a dropdown link, then the dropdown menu opens. 
-
-Easy, right? 
 
 Next, we need to add a quick line of JS code to change the dropdown links “On Click” behavior.  
 
- $('.dropdown-toggle').click(function(e) {
+$('.dropdown-toggle').click(function(e) {
   if ($(document).width() > 768) {
     e.preventDefault();
 
@@ -48,6 +27,22 @@ Next, we need to add a quick line of JS code to change the dropdown links “On 
 
   }
 });
+
+<h2>Technique # 2</h2>
+
+Set responsive video embeds to maintain aspect ratio
+  
+  Simply add the following code to your markup. 
+
+<!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
+</div>
+
+<!-- 4:3 aspect ratio -->
+<div class="embed-responsive embed-responsive-4by3">
+    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
+</div>
   
 <h2>Technique # 3</h2>
 
