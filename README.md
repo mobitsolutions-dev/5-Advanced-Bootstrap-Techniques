@@ -4,6 +4,9 @@
 <h2>Technique # 1</h2>
 Set the Nav Bar to Open By Hovering
  
+ ![1](https://user-images.githubusercontent.com/67701415/86608769-69569a80-bfc4-11ea-870c-8498fa2838bd.PNG)
+
+ 
  Only two things will need to be changed in order to achieve this goal.
 
 First, add the following CSS rule to your stylesheet after loading Bootstrap’s CSS. 
@@ -41,12 +44,12 @@ Set responsive video embeds to maintain aspect ratio
 ```
 <!-- 16:9 aspect ratio -->
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"> </iframe>
+    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/QOoxfVSXaoQ"> </iframe>
 </div>
 
 <!-- 4:3 aspect ratio -->
 <div class="embed-responsive embed-responsive-4by3">
-    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"> </iframe>
+    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/j1M5RPunrHQ"> </iframe>
 </div>
   ```
 <h2>Technique # 3</h2>
