@@ -56,8 +56,8 @@ Set responsive video embeds to maintain aspect ratio
 
 Hide Elements On Mobile
 
-<img  src="images/hide-elements-mobile.png"  heigth="200" width="200">
-<img  src="images/3.PNG"  heigth="200" width="200">
+<img  src="images/hide-elements-mobile.png"  width="100%">
+<img  src="images/3.PNG" width="100%">
 If you need to quickly hide an element only on an xs device, you can use the ```.hidden-xs class.```
 
 In a similar fashion, you can use the``` .hidden-(breakpoint) class ```for the rest of the breakpoints and use ```.hidden-lg,.hidden-md, and .hidden-sm.```
