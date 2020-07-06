@@ -77,7 +77,7 @@ Extend Existing classes...don't override
 
       Here’s the code that you would use to create a flat yellow button. 
 
-.btn-yellow {
+<span class="cm-comment">.btn-yellow {
   background: rgb(250, 255, 140);
   color: #574500;
   border: none;
@@ -92,7 +92,7 @@ Extend Existing classes...don't override
 .btn-yellow:active {
   background: rgb(247, 255, 71);
 }
-
+          </span>
 <h2>Technique # 5</h2>
 
 How to set colums to the same height
