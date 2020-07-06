@@ -56,6 +56,9 @@ Set responsive video embeds to maintain aspect ratio
 
 Hide Elements On Mobile
 
+![2](https://user-images.githubusercontent.com/67701415/86611022-8a6cba80-bfc7-11ea-8d82-5137e0719e91.PNG)
+![3](https://user-images.githubusercontent.com/67701415/86611026-8a6cba80-bfc7-11ea-8dac-61b2ce9f8cc9.PNG)
+
 If you need to quickly hide an element only on an xs device, you can use the ```.hidden-xs class.```
 
 In a similar fashion, you can use the``` .hidden-(breakpoint) class ```for the rest of the breakpoints and use ```.hidden-lg,.hidden-md, and .hidden-sm.```
@@ -66,6 +69,8 @@ In a similar fashion, you can use the``` .hidden-(breakpoint) class ```for the r
 Extend Existing classes...don't override      
 
 Here’s the code that you would use to create a flat yellow button. 
+
+![4](https://user-images.githubusercontent.com/67701415/86611027-8b055100-bfc7-11ea-9fb4-770294eefc9f.PNG)
 
 ```
 .btn-yellow {
@@ -87,6 +92,9 @@ Here’s the code that you would use to create a flat yellow button.
 <h2>Technique # 5</h2>
 
 How to set colums to the same height
+
+![5](https://user-images.githubusercontent.com/67701415/86611014-880a6080-bfc7-11ea-990c-ed03eab7bb0c.PNG)
+![6](https://user-images.githubusercontent.com/67701415/86611018-89d42400-bfc7-11ea-8fe5-b6ce8975577c.PNG)
 
 Here’s an example of the code you would use. 
               
