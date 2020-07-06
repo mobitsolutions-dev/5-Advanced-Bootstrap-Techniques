@@ -123,9 +123,9 @@ Here’s an example of the code you would use.
 ```
 
 
-<b>For more useful articles or blogs visit our website: https:</b>
+<b>For more useful articles or blogs visit our website:</b>
 
-//www.mobitsolutions.com/blog
+https://www.mobitsolutions.com/blog
 
 <h1>About Us:</h1>
  
