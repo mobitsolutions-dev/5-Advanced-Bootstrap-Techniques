@@ -36,17 +36,17 @@ Set responsive video embeds to maintain aspect ratio
 
 <!-- 16:9 aspect ratio -->
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
+    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"> </iframe>
 </div>
 
 <!-- 4:3 aspect ratio -->
 <div class="embed-responsive embed-responsive-4by3">
-    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
+    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"> </iframe>
 </div>
   
 <h2>Technique # 3</h2>
 
-Hide elements on mobile
+Hide Elements On Mobile
 
 If you need to quickly hide an element only on an xs device, you can use the .hidden-xs class.
 
