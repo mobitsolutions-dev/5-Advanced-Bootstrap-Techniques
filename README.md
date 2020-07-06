@@ -16,7 +16,7 @@ Set the Nav Bar to Open By Hovering
 
 Next, we need to add a quick line of JS code to change the dropdown links “On Click” behavior.  
 
-'''
+```
 $('.dropdown-toggle').click(function(e) {
   if ($(document).width() > 768) {
     e.preventDefault();
@@ -28,8 +28,7 @@ $('.dropdown-toggle').click(function(e) {
     }
 
   }
-});
-'''
+```
 
 <h2>Technique # 2</h2>
 
