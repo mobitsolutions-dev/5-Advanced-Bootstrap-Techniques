@@ -35,7 +35,7 @@ $('.dropdown-toggle').click(function(e) {
   }
 });
 ```
-<img src="images/1.PNG">
+<img style="height:50px; width:50px;" src="images/1.PNG">
 <h2>Technique # 2</h2>
 
 Set responsive video embeds to maintain aspect ratio
