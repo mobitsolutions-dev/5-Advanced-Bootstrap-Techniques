@@ -9,8 +9,8 @@ Set the Nav Bar to Open By Hovering
 First, add the following CSS rule to your stylesheet after loading Bootstrap’s CSS. 
 
        
-
-```@media only screen and (min-width: 768px) {
+```
+@media only screen and (min-width: 768px) {
   .dropdown:hover .dropdown-menu {
     display: block;
   }
